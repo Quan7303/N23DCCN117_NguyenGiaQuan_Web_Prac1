@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Thực hành 1: Blog Listing Page - NextJS & Tailwind
 
-## Getting Started
+**Thông tin sinh viên:**
+- **Họ và tên:** N23DCCN117
+- **Mã sinh viên (MSV):** Nguyễn Gia Quân
+- **Nhóm:** 2
 
-First, run the development server:
+## Mô tả ngắn về bài làm
+Đây là dự án thực hành cá nhân môn Thực hành Lập trình Web. Trong bài lab này, em đã xây dựng một trang Blog hoàn chỉnh sử dụng **Next.js (App Router)** và **Tailwind CSS**. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Các công việc đã hoàn thành:
+1. **Thiết lập dự án Next.js:** Khởi tạo project với Tailwind UI và ESLint.
+2. **Xây dựng UI tái sử dụng:** Tạo các component `Header.js`, `Badge.js` theo yêu cầu giao diện (responsive layout).
+3. **Fetching List Data:** Fetch dữ liệu tĩnh từ `JSONPlaceholder API` trong Server Component (`app/page.js`) để hiển thị danh sách dạng Grid (hiển thị 12 post đầu tiên) tái sử dụng component `BlogCard`.
+4. **Dynamic Routing / Detail Page:** Hoàn thiện bài tập về nhà bằng việc tạo trang chi tiết bài viết tại `app/blog/[id]/page.js`. Quá trình này bao gồm fetch dữ liệu theo biến `id` tự động, và trang bị đầy đủ style responsive cho nội dung chi tiết.
